@@ -1,0 +1,142 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    font-family:'Ubuntu';
+    scroll-behavior: smooth;
+}
+a
+{
+    text-decoration: none;
+    color:black;
+}
+header
+{
+    display:flex;
+    flex-wrap:wrap;
+    background-color:white;
+    /* position:fixed;
+    z-index: 2; */
+    width:100vw;
+    height:60px;
+    padding:10px;
+    /* background-color: rgb(240, 240, 240); */
+}
+.navigation
+{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width:33%;
+    height:100%;
+}
+.logo
+{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:15%;
+    height:100%;
+    transition: all 0.4s ease-in-out;
+    /* margin:5px 15px; */
+}
+.cart
+{
+    margin-left:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart li
+{
+    padding:0px;
+}
+
+.cart i
+{
+    padding:0px;
+    transition: all 0.4s ease-in-out;
+    
+}
+.extranav
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:end;
+    align-items: center;
+    width:50%;
+    height:90%;
+
+
+}
+.logo i,.logo a
+{
+    font-size: 40px;
+    text-decoration: none;
+    color:black;
+    transition: all 0.4s ease-in-out;
+
+}
+.logo i
+{
+    color:#8614f8;
+}
+
+.navigation li
+{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding:5px 15px;
+    border-radius: 20px;
+    transition:all 0.4s ease-in-out;
+    
+}
+.navigation li:hover ,.cart:hover
+{
+    
+    font-size:23px;
+    transform: translate(0,-20%);
+    color:#8614f8;
+    cursor: pointer;
+    /* text-shadow: -7px 10px 40px black; */
+    
+}
+.logo a:hover
+{
+    color:#8614f8;
+    font-size:40px;
+}
+#search
+{
+    border-radius: 10px;
+    padding:10px 20px;
+    margin:10px;
+    border:2px solid gray;
+    outline:none;
+    font-size: 20px;
+}
+.out
+{
+    width:45%;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+#searchbtn
+{
+    background-color: #8614f8;
+    color:white;
+    padding:12px 12px;
+    border:none;
+    outline:none;
+    border-radius:10px;
+    font-size:20px;
+    cursor:pointer;
+}
